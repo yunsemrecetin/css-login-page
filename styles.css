@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: Tahoma, sans-serif;
+    background-image: url(wallpaper.jpg);
+    color: white;
+}
+
+form {
+    width: 50vw;
+    background-color: rgba(242, 211, 136,0.6);
+    padding: 3rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title {
+    text-align: center;
+}
+
+.form-control {
+    margin: 1em 1em;
+}
+
+#email, #password {
+    width: 100%;
+    background: #A7D2CB;
+    border-color: #A7D2CB;
+    height: 2em;
+}
+
+.form-control:last-of-type {
+    text-align: right;
+}
+
+.sleeve {
+    height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+}
+
+#submit {
+    display: block;
+    width: 25%;
+    color: black;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #A7D2CB;
+    border-color: #A7D2CB;
+}
